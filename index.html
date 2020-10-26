@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo"> logo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello World,<br>I'm <span>Ali Raza</span></h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsam, dolorem fuga. Enim, cupiditate? Magnam, expedita
+                repudiandae officia nam soluta porro fugit asperiores
+                voluptates accusantium. Sint cupiditate facilis animi
+                fugit nobis.
+            </p>
+            <a href="#">Khow more</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" class="icon" alt=""></a> </li>
+            <li><a href="#"><img src="./twitter.png" class="icon" alt=""></a> </li>
+            <li><a href="#"><img src="linkedin.png" class="icon" alt=""></a> </li>
+        </ul>
+    </section>
+    <img src="/image/facebook.png" alt="">
+    <div class="navigation">
+        <ul>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Services</a> </li>
+            <li> <a href="#">Porfolio</a> </li>
+            <li> <a href="#">Contact</a> </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            sec.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
